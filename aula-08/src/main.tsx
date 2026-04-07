@@ -17,7 +17,7 @@ const router = createBrowserRouter([{
     {path: "/produtos", element: <Produtos/>},
     {path: "/editar-produtos/:id", element: <EditarProdutos/>},  
   ]
-}]);
+}]); 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
